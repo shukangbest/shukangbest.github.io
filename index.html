@@ -1,65 +1,61 @@
----
-title: Home
-description: The latest app to help you find new friends with common interests.
-image: https://source.unsplash.com/j5LSbCqB1wA/2000x1322?a=.png
-bottom_image: https://unsplash.it/2000/1322?a=.png
----
+<!DOCTYPE html>
+<html>
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
-	<div class="inner-hero text-container">
-		<div class="hero-text-container">
-			<h1 class="editable">Make a new friend today</h1>
-			<p class="subtext editable">Frisco helps you find new friends with common interests. Search for a new Tennis partner, find a baking side-kick or befriend a new drinking buddy.</p>
-			<div class="cta button alt"><a href="#">Join Now</a></div>
-		</div>
-	</div>
-	<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
-</section>
+<head>
+    <meta charset="utf-8">
+    <title>老兔斯基，生日快乐!!!</title>
+    <meta name="format-detection " content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script type="text/javascript" src="dist/js/flexble.js"></script>
+    <meta name="author" content="http://www.cnblogs.com/caoruichun">
+    <link rel="stylesheet" type="text/css" href="dist/css/index.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/swiper.min.css">
+</head>
 
-<div class="content">
-	<section class="info" id="learn-more">
-		<div class="container flex">
-			<div class="text">
-				<h2 class="editable">Introduce yourself</h2>
-				<p class="editable">Making news friends in the adult world is hard. Frisco is the perfect filter matching you the most interesting people in your area.</p>
-			</div>
-			<div class="image">
-				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
-			</div>
-		</div>
-	</section>
+<body>
+    <div class="container">
+        <ul class="kuang">
+            <img src="dist/images/4.jpg" class="imgOne" alt="">
+            <li class="dataCanvas">
+                <pre class="photo4">    
+                </pre>
+            </li>
+        </ul>
+        <div class="happy">
+            <img src="dist/images/20.gif" alt="happy">
+        </div>
+        <div class="rotate">
+            <img src="dist/images/3.jpg" class="rotateIMG1" alt="">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url('dist/images/rotate/corner_6.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('dist/images/rotate/happ.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('dist/images/rotate/qw.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('dist/images/rotate/ww.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('dist/images/rotate/111.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('dist/images/rotate/qwq.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('dist/images/rotate/sss.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('dist/images/rotate/wawa.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('dist/images/rotate/corner_3.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('dist/images/rotate/corner_4.jpg')"></div>
+                </div>
+            </div>
+        </div>
+        <audio id="audio" src="dist/images/231456.mp3" loop="loop">
+            备用（当浏览器不支持audio时显示的内容）
+        </audio>
+    </div>
+    <script src="dist/js/index.js"></script>
+    <script src="dist/js/swiper.min.js"></script>
+    <script>
+    //轮播图
+    var swiper = new Swiper('.swiper-container', {
+        effect: 'fade',
+        autoplay: 2000,
+        autoplayDisableOnInteraction: true,
+        loop: true
+    });
+    </script>
+</body>
 
-	<section class="info">
-		<div class="container flex">
-			<div class="text">
-				<h2 class="editable">Pick your interests</h2>
-				<p class="editable">The more you tell Frisco the better it gets to know you. Frisco matches you with people who share similar interests with you.</p>
-			</div>
-			<div class="image">
-				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
-			</div>
-		</div>
-	</section>
-
-	<section class="info">
-		<div class="container flex">
-			<div class="text">
-				<h2 class="editable">Swipe and go</h2>
-				<p class="editable">Frisco shows you cards with people who might be a good match for friendship. Swipe left to move to the next card or right to start talking.</p>
-			</div>
-			<div class="image">
-				<img class="editable" src="http://placehold.it/650x1300" alt="Screenshot" />
-			</div>
-		</div>
-	</section>
-
-	<section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
-		<div class="inner-hero text-container">
-			<div class="hero-text-container">
-				<h2 class="editable">Find your buddy today</h2>
-				<p class="subtext editable">It's free, fun and an exciting way to meet new people.</p>
-				<div class="cta button alt"><a href="#">Join Now</a></div>
-			</div>
-		</div>
-	</section>
-</div>
+</html>
