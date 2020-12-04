@@ -3,12 +3,11 @@ var TimeDate = Date.parse(new Date());
 var lasttime = Date.parse("2019-01-11");
 var day = parseInt((TimeDate - lasttime) / (1000 * 60 * 60 * 24));
 
-var str = `               兔爷:
-
-在这特殊的日子里，祝您生日快乐!
-今天我们相遇的第${day}天,
-
-                            生日快乐!  Happy birthday!!!`;
+var str = `生日是谁，它快不快乐有什么要紧的。
+在这个世界上，我们希望你是快乐的。
+都自由，都拥有。
+祝你不止生日快乐，以后日日快乐。
+Wuli兔兔，我们爱你爱你爱你爱你爱你爱你~`;
 //判断手机类型
 var audio = document.querySelector('#audio');
 function ismobile(test) {
